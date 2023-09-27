@@ -1,0 +1,1 @@
+import{H as i}from"./entry.f5acf7d2.js";const c=o=>(i.get("click_id")&&(o=o+"?click_id="+i.get("click_id")),i.get("promo")&&(i.get("click_id")?o=o+"&promo="+i.get("promo"):o=o+"?promo="+i.get("promo")),o),p=o=>o.split(" ").join("-").toLowerCase(),a=o=>o.split("-").map(e=>e.charAt(0).toUpperCase()+e.slice(1)).join(" ");export{a,c as l,p as t};
